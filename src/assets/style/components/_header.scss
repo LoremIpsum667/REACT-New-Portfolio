@@ -1,0 +1,39 @@
+.headerContainer {
+  background-color: $secondBg;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  align-items: center;
+  height: 50px;
+  margin-top: 0;
+  // width: 100%;
+}
+
+.headerContainer a {
+  text-decoration: none;
+  color: $textColor1;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 1px;
+  
+}
+
+.neonEffect{
+  text-shadow:
+  0 0 2px $textColor1,
+  0 0 2px $textColor1,
+  0 0 2px $textColor1,
+}
+
+.HeaderContainer a:visited {
+  color: $textColor2;
+  list-style: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.logo a {
+  color: $textColor2;
+  text-align: left;
+}
+

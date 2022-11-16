@@ -1,0 +1,152 @@
+.myName {
+  color: $textColor2;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+
+.myName span {
+  font-weight: 300;
+}
+
+.gradientTextOne {
+  font-size: 40px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  background-color: $principalBg;
+  background-image: linear-gradient($textColor2, $textColor1, $textColor2);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.gradientTextTwo {
+  font-size: 40px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  background-color: $principalBg;
+  background-image: linear-gradient($textColor1, $textColor2, $textColor1);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.marketingText {
+  color: $textColor2;
+  font-size: 16px;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.imgAndInfoContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
+.baka {
+  width: 480px;
+  height: 480px;
+}
+
+.resumeContainer {
+  background-color: $secondBg;
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 4px 0px #000000;
+  box-shadow: 5px 5px 4px 0px #000000;
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.resumeContainer p {
+  color: $textColor2;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.resumeContainer button {
+  background-color: $principalBg;
+  color: $textColor2;
+  -webkit-box-shadow: 5px 5px 4px 0px #000000;
+  box-shadow: 5px 5px 4px 0px #000000;
+  width: 100px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 10px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-top: 200px;
+  border: none;
+  cursor: pointer;
+}
+
+.resumeContainer button::after {
+  color: $textColor2;
+}
+
+.bottomNavigation {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.cardSection {
+  background-color: $secondBg;
+  align-content: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 4px 0px #000000;
+  box-shadow: 5px 5px 4px 0px #000000;
+  margin-bottom: 0px;
+}
+
+.cardsImgSize {
+  width: 300px;
+  height: 200px;
+}
+
+.cardSection p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+  color: $textColor1;
+  text-shadow: 0 0 2px $textColor1, 0 0 2px $textColor1, 0 0 2px $textColor1;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: $secondBg;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $textColor1;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $textColor2;
+}

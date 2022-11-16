@@ -1,0 +1,122 @@
+.contactsBackground {
+  background-image: url("../../img/contactsBackground.png");
+  background-repeat: no-repeat, repeat;
+  height: 1000px;
+  background-position: center;
+}
+
+.contactsTitle {
+  color: $textColor1;
+  font-weight: 500;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 30px;
+  text-shadow: 0 0 3px $textColor1, 0 0 3px $textColor1, 0 0 3px $textColor1;
+}
+
+.contactsTitle span {
+  font-weight: 200;
+}
+
+.contactsBox {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $secondBg;
+  width: 400px;
+  height: 240px;
+  border-radius: 10px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  margin-top: 40px;
+}
+
+.boxContent {
+  display: flex;
+  margin-top: 10px;
+}
+
+.marginBox {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contactsImgSize {
+  width: 40px;
+  height: 40px;
+}
+
+.contactsBox p {
+  color: $textColor2;
+  font-weight: 200;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.contactsBox a {
+  color: $textColor2;
+  font-weight: 200;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.formBox {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: $secondBg;
+  width: 400px;
+  height: 480px;
+  border-radius: 20px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+form {
+  display: grid;
+  color: $textColor2;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+label {
+  display: grid;
+  margin-bottom: 10px;
+}
+
+input {
+  margin-top: 8px;
+  background-color: $principalBg;
+  color: $textColor2;
+  font-weight: 200;
+  padding: 10px 10px 10px 10px;
+  border-radius: 15px;
+  border: none;
+}
+
+input:focus{
+  border: 0.1px solid $textColor1;
+  outline: none;
+
+}
+
+.formMessage {
+  height: 150px;
+  border-radius: 15px;
+}
+
+.formButton {
+  cursor: pointer;
+  width: 220px;
+}
+
+.formButton:hover{
+  background-color: $textColor1;
+  color: $secondBg;
+}
+
+.formButton:focus{
+  border: none;
+}
